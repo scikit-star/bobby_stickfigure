@@ -21,6 +21,9 @@ struct ContentView: View {
             EmojiView(symbol: "🧤", size: 50, x: 50,  y: 90)
             EmojiView(symbol: "🧤", size: 50, x: -50,  y: 90)
             EmojiView(symbol: "👙", size: 100, x: 0,  y: -50)
+            Text("The random dream")
+                .offset(x:0, y: 200)
+                .font(.system(size: 30.0))
         }
         .frame(width: 200, height: 320)
     }
